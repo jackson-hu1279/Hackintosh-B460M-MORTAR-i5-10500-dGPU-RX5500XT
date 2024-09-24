@@ -1,0 +1,2 @@
+# Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT
+ Hackintosh EFI config for MSI B460M MORTAR + i5-10500 + RX5500XT
