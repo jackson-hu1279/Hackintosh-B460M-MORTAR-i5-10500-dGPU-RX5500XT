@@ -15,9 +15,11 @@ Hackintosh EFI config for MSI B460M MORTAR + i5-10500 + RX5500XT
 
 ## Compatibility
 
-| **Supported macOS Build**  | **OpenCore Version**                                                                                    | **Verified** |
-| -------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ |
-| macOS Sonoma 14.7 (23H124) | [OC 0.9.6](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.9.6) | ✅           |
+| **Supported macOS Build**       | **OpenCore Version**                                                                                    | **Verified** |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ |
+| macOS Sonoma 14.7 (23H124)      | [OC 0.9.6](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.9.6) | ✅           |
+| macOS Ventura 13.7 (22H123)     | [OC 0.8.9](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.8.9) | ✅           |
+| macOS Monterey 12.7.6 (21H1320) | [OC 0.7.0](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.7.0) | ✅           |
 
 ## Supported Features
 
@@ -25,14 +27,33 @@ Hackintosh EFI config for MSI B460M MORTAR + i5-10500 + RX5500XT
 | ------------------------------ | ------------- |
 | Wi-Fi / Bluetooth              | ✅            |
 | AirDrop / Handoff / Continuity | ✅            |
+| iMessage / FaceTime            | ✅            |
 | iGPU Acceleration              | ✅            |
 | Metal 3                        | ✅            |
 | H264 & HEVC Decoding           | ✅            |
-| 4K Display Output              | ✅            |
+| 4K Display Output (DP / HDMI)  | ✅            |
 | Sleep / Wake                   | ✅            |
 | USB / USB-C                    | ✅            |
 | Onboard Ethernet               | ✅            |
 | Onboard Audio                  | ✅            |
+
+## BIOS Settings
+
+| **Setting**                      | **Option** |
+| -------------------------------- | ---------- |
+| D.T.M                            | Enabled    |
+| Above 4G Memory                  | Enabled    |
+| IGD Multi-Monitor                | Enabled    |
+| XHCI Hand-off                    | Enabled    |
+| Onboard LAN Controller           | Enabled    |
+| HD Audio Controller              | Enabled    |
+| Fast Boot                        | Disabled   |
+| Secure Boot                      | Disabled   |
+| Security Device Support          | Disabled   |
+| Wake Up By USB, etc.             | Disabled   |
+| SATA Mode                        | AHCI       |
+| Initiate Graphic Adapter         | PEG        |
+| Integrated Graphics Share Memory | 64 MB      |
 
 ## Kexts
 
