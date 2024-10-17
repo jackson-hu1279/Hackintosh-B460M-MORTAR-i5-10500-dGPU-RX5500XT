@@ -55,7 +55,7 @@ Hackintosh EFI config for MSI B460M MORTAR + i5-10500 + RX5500XT
 | Initiate Graphic Adapter         | PEG        |
 | Integrated Graphics Share Memory | 64 MB      |
 
-## Kexts
+## Major Kexts
 
 | **Kext**                 | **Version** |
 | ------------------------ | ----------- |
@@ -65,3 +65,26 @@ Hackintosh EFI config for MSI B460M MORTAR + i5-10500 + RX5500XT
 | AppleALC.kext            | 1.8.7       |
 | LucyRTL8125Ethernet.kext | 1.1.0       |
 | NVMeFix.kext             | 1.1.1       |
+
+## Notes
+
+1. For 1080P or 2K displays, please consider setting `UIScale=1` for standard resolution.
+2. For those using Ethernet connections, you may need to manually update network settings as shown below:
+   ![Ethernet Setting](/docs/Ethernet%20Setting.png)
+3. Most Broadcom network cards should work with this configuration, verified with Broadcom BCM94360CS2 network card only. Intel network cards may require different drivers with different configurations.
+4. Since macOS introduced the limit of 15 USB ports, if you choose to use a motherboard other than the one listed above, it is strongly recommended to create a custom USB mapping. You may consider some 3rd party tools such as [USBToolBox](https://github.com/USBToolBox/tool) for such purpose.
+5. Platform information has been removed from `config.plist`, you may use CorpNewt's [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) application to generate a set of SMBIOS details like below:
+
+```
+#######################################################
+#               iMac20,1 SMBIOS Info                  #
+#######################################################
+
+Type:         iMac20,1
+Serial:       C02XG0FDH7JY
+Board Serial: C02839303QXH69FJA
+SmUUID:       DBB364D6-44B2-4A02-B922-AB4396F16DA8
+```
+
+6. A valid set of SMBIOS information may be required to activate iMessage and FaceTime, linked to your Apple ID.
+7. Please be cautious when sharing your `config.plist` publicly since abused SMBIOS information could result in potential issues for associated Apple ID. Feel free to use my [OC-PlatformInfo-Remover](https://github.com/jackson-hu1279/OC-PlatformInfo-Remover) script to remove relevant platform details before sharing with others.
