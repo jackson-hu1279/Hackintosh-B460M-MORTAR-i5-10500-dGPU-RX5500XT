@@ -41,12 +41,13 @@
 
 ## Notes
 
-1. For 1080P or 2K displays, please consider setting `UIScale=1` for standard resolution.
-2. For those using Ethernet connections, you may need to manually update network settings as shown below:
+1. Need to appy root patching with [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/) after every fresh install or OS update for Bluetooth and Wi-Fi to be working correctly.
+2. For 1080P or 2K displays, please consider setting `UIScale=1` for standard resolution.
+3. For those using Ethernet connections, you may need to manually update network settings as shown below:
    ![Ethernet Setting](/docs/Ethernet%20Setting.png)
-3. Most Broadcom network cards should work with this configuration, verified with Broadcom BCM94360CS2 network card only. Intel network cards may require different drivers with different configurations.
-4. Since macOS introduced the limit of 15 USB ports, if you choose to use a motherboard other than the one listed above, it is strongly recommended to create a custom USB mapping. You may consider some 3rd party tools such as [USBToolBox](https://github.com/USBToolBox/tool) for such purpose.
-5. Platform information has been removed from `config.plist`, you may use CorpNewt's [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) application to generate a set of SMBIOS details like below:
+4. Most Broadcom network cards should work with this configuration, verified with Broadcom BCM94360CS2 network card only. Intel network cards may require different drivers with different configurations.
+5. Since macOS introduced the limit of 15 USB ports, if you choose to use a motherboard other than the one listed above, it is strongly recommended to create a custom USB mapping. You may consider some 3rd party tools such as [USBToolBox](https://github.com/USBToolBox/tool) for such purpose.
+6. Platform information has been removed from `config.plist`, you may use CorpNewt's [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) application to generate a set of SMBIOS details like below:
 
 ```
 #######################################################
