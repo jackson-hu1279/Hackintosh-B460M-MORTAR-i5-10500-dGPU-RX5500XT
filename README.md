@@ -19,7 +19,7 @@
 
 | **Supported macOS Build**       | **OpenCore Version**                                                                                    | **Verified** |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ |
-| macOS Sonoma 14.7.1 (23H222)    | [OC 0.9.6](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.9.6) | ✅           |
+| macOS Sonoma 14.7.3 (23H311)    | [OC 0.9.6](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.9.6) | ✅           |
 | macOS Ventura 13.7 (22H123)     | [OC 0.8.9](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.8.9) | ✅           |
 | macOS Monterey 12.7.6 (21H1320) | [OC 0.7.0](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.7.0) | ✅           |
 
