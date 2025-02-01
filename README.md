@@ -85,9 +85,9 @@ SmUUID:       DBB364D6-44B2-4A02-B922-AB4396F16DA8
 
 | **Kext**                 | **Version** |
 | ------------------------ | ----------- |
-| Lilu.kext                | 1.6.7       |
-| WhateverGreen.kext       | 1.6.6       |
-| VirtualSMC.kext          | 1.3.2       |
-| AppleALC.kext            | 1.8.7       |
-| LucyRTL8125Ethernet.kext | 1.1.0       |
-| NVMeFix.kext             | 1.1.1       |
+| Lilu.kext                | 1.7.0       |
+| WhateverGreen.kext       | 1.6.9       |
+| VirtualSMC.kext          | 1.3.4       |
+| AppleALC.kext            | 1.9.3       |
+| LucyRTL8125Ethernet.kext | 1.2.0       |
+| NVMeFix.kext             | 1.1.2       |
