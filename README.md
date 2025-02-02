@@ -19,7 +19,7 @@
 
 | **Supported macOS Build**       | **OpenCore Version**                                                                                    | **Verified** |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ |
-| macOS Sonoma 14.7.1 (23H222)    | [OC 0.9.6](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.9.6) | ✅           |
+| macOS Sonoma 14.7.3 (23H311)    | [OC 0.9.6](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.9.6) | ✅           |
 | macOS Ventura 13.7 (22H123)     | [OC 0.8.9](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.8.9) | ✅           |
 | macOS Monterey 12.7.6 (21H1320) | [OC 0.7.0](https://github.com/jackson-hu1279/Hackintosh-B460M-MORTAR-i5-10500-dGPU-RX5500XT/tree/0.7.0) | ✅           |
 
@@ -85,9 +85,9 @@ SmUUID:       DBB364D6-44B2-4A02-B922-AB4396F16DA8
 
 | **Kext**                 | **Version** |
 | ------------------------ | ----------- |
-| Lilu.kext                | 1.6.7       |
-| WhateverGreen.kext       | 1.6.6       |
-| VirtualSMC.kext          | 1.3.2       |
-| AppleALC.kext            | 1.8.7       |
-| LucyRTL8125Ethernet.kext | 1.1.0       |
-| NVMeFix.kext             | 1.1.1       |
+| Lilu.kext                | 1.7.0       |
+| WhateverGreen.kext       | 1.6.9       |
+| VirtualSMC.kext          | 1.3.4       |
+| AppleALC.kext            | 1.9.3       |
+| LucyRTL8125Ethernet.kext | 1.2.0       |
+| NVMeFix.kext             | 1.1.2       |
